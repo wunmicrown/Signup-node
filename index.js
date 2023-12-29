@@ -18,3 +18,6 @@ app.get("/",(req,res)=>{
     res.render("index", {car:"Toyota Camry"})
 
 })
+app.get("/Welcome", (req, res)=>{
+    res.sendFile(__dirname + "/index.html")
+})
