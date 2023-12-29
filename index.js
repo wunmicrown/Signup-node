@@ -14,4 +14,7 @@ app.listen(port,(error)=>{
         console.log(`I am runing on port ${port}`);
     }
 })
+app.get("/",(req,res)=>{
+    res.render("index", {car:"Toyota Camry"})
 
+})
