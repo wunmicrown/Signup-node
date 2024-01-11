@@ -24,3 +24,6 @@ app.get("/Welcome", (req, res)=>{
 app.get("/login", (req, res)=>{
     res.sendFile(__dirname + "/login.html")
 })
+app.get("/signup", (req, res)=>{
+    res.sendFile(__dirname + "/login.html")
+})
